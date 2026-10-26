@@ -1,0 +1,25 @@
+@baseUrl = http://127.0.0.1:5080
+
+### Process health (does not check database readiness)
+GET {{baseUrl}}/health
+
+### Search one city (requires configured SQL database; may fetch the live source)
+POST {{baseUrl}}/api/search
+Content-Type: application/json
+
+{"location":"Leeds"}
+
+### Invalid city input: validation response
+POST {{baseUrl}}/api/search
+Content-Type: application/json
+
+{"location":""}
+
+### Supported locations
+GET {{baseUrl}}/api/locations
+
+### Unsupported location (400; no database or scraper access)
+POST {{baseUrl}}/api/search
+Content-Type: application/json
+
+{"location":"Banana"}

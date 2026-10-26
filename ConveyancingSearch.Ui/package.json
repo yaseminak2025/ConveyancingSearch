@@ -1,0 +1,34 @@
+{
+  "name": "conveyancing-search",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src vite.config.ts playwright.config.ts browser-tests",
+    "format:check": "prettier --check src vite.config.ts playwright.config.ts browser-tests",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "jsdom": "^27.0.0",
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.0",
+    "vite": "^8.3.5",
+    "vitest": "^4.0.0"
+  }
+}

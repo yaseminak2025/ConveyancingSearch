@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="ConveyancingSearch.Api/ConveyancingSearch.Api.csproj" />
+  <Project Path="ConveyancingSearch.Application/ConveyancingSearch.Application.csproj" />
+  <Project Path="ConveyancingSearch.Data/ConveyancingSearch.Data.csproj" />
+  <Project Path="ConveyancingSearch.Domain/ConveyancingSearch.Domain.csproj" />
+  <Project Path="ConveyancingSearch.Service/ConveyancingSearch.Service.csproj" />
+  <Project Path="ConveyancingSearch.Tests/ConveyancingSearch.Tests.csproj" />
+  <Folder Name="/ConveyancingSearch.Ui/"><File Path="ConveyancingSearch.Ui/package.json" /></Folder>
+</Solution>

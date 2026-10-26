@@ -1,0 +1,45 @@
+{
+  "Locations": [
+
+    {
+      "key": "birmingham",
+      "displayName": "Birmingham",
+      "sourcePath": "/conveyancing+birmingham.html"
+    },
+    {
+      "key": "leeds",
+      "displayName": "Leeds",
+      "sourcePath": "/conveyancing+leeds.html"
+    },
+    {
+      "key": "manchester",
+      "displayName": "Manchester",
+      "sourcePath": "/conveyancing+manchester.html"
+    },
+    {
+      "key": "sheffield",
+      "displayName": "Sheffield",
+      "sourcePath": "/conveyancing+sheffield.html"
+    },
+    {
+      "key": "bradford",
+      "displayName": "Bradford",
+      "sourcePath": "/conveyancing+bradford.html"
+    },
+    {
+      "key": "london",
+      "displayName": "London",
+      "sourcePath": "/conveyancing+london.html"
+    },
+    {
+      "key": "liverpool",
+      "displayName": "Liverpool",
+      "sourcePath": "/conveyancing+liverpool.html"
+    },
+    {
+      "key": "bristol",
+      "displayName": "Bristol",
+      "sourcePath": "/conveyancing+bristol.html"
+    }
+  ]
+}
