@@ -226,8 +226,6 @@ SQL and live-source tests are opt-in (see `SETUP.md`) and were skipped in that r
 
 ## Known limitations
 
-## Known limitations
-
 - London fails: a required link in the source's London directory returns `404`. Rather than save an incomplete collection, the app reports London as unavailable.
 - Sharing of an in-progress refresh works within one API instance. Running several instances would need a distributed lock or queue.
 - If solicitors.com changes its page structure, refreshes are rejected rather than saving partial data; the parser then needs updating.
